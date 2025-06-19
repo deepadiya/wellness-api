@@ -1,0 +1,55 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-06-19T21:50:42.632+05:30  INFO 8826 --- [           main] c.wellness.api.WellnessApiApplication    : Starting WellnessApiApplication using Java 17.0.15 with PID 8826 (/home/diya/wellness-api/target/wellness-api-1.0.0.jar started by diya in /home/diya/wellness-api)
+2025-06-19T21:50:42.637+05:30  INFO 8826 --- [           main] c.wellness.api.WellnessApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-06-19T21:50:45.931+05:30  INFO 8826 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-19T21:50:45.954+05:30  INFO 8826 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-19T21:50:45.954+05:30  INFO 8826 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-06-19T21:50:46.348+05:30  INFO 8826 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-19T21:50:46.351+05:30  INFO 8826 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3558 ms
+2025-06-19T21:50:49.209+05:30  INFO 8826 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-06-19T21:50:49.271+05:30  INFO 8826 --- [           main] c.wellness.api.WellnessApiApplication    : Started WellnessApiApplication in 8.093 seconds (process running for 9.937)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-06-19T21:51:01.439+05:30  INFO 8860 --- [           main] c.wellness.api.WellnessApiApplication    : Starting WellnessApiApplication using Java 17.0.15 with PID 8860 (/home/diya/wellness-api/target/wellness-api-1.0.0.jar started by diya in /home/diya/wellness-api)
+2025-06-19T21:51:01.453+05:30  INFO 8860 --- [           main] c.wellness.api.WellnessApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-06-19T21:51:04.931+05:30  INFO 8860 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-19T21:51:05.018+05:30  INFO 8860 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-19T21:51:05.019+05:30  INFO 8860 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-06-19T21:51:05.600+05:30  INFO 8860 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-19T21:51:05.613+05:30  INFO 8860 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4037 ms
+2025-06-19T21:51:08.277+05:30  WARN 8860 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-06-19T21:51:08.351+05:30  INFO 8860 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-19T21:51:08.408+05:30 ERROR 8860 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-06-19T21:52:26.548+05:30  INFO 8826 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19T21:52:26.550+05:30  INFO 8826 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-19T21:52:26.573+05:30  INFO 8826 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
